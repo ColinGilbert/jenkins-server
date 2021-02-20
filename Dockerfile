@@ -1,3 +1,3 @@
 FROM jenkins/jenkins:alpine 
-COPY entrypoint.sh /usr/bin/colingilbert_entrypoint.sh
-ENTRYPOINT /usr/bin/colingilbert_entrypoint.sh
+COPY entrypoint.sh /usr/local/bin/colingilbert_entrypoint.sh
+ENTRYPOINT /usr/local/bin/colingilbert_entrypoint.sh
